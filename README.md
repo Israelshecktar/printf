@@ -1,2 +1,3 @@
-# printf
-- THis repo is for creating a printf function
+#ALX  printf
+- This repo is for creating a printf function
+`git clone`
