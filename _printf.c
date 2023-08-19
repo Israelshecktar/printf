@@ -29,7 +29,7 @@ int _printf(const char *format, ...)
 
 	c = va_arg(arg_list, int);
 
-	putchar(c);
+	_putchar(c);
 	len++;
 	}
 	else if (format[k] == 's')
@@ -42,20 +42,20 @@ int _printf(const char *format, ...)
 
 	for (y = 0; str[y] != '\0'; y++)
 	{
-	putchar(str[y]);
+	_putchar(str[y]);
 	len++;
 	}
 	}
 	else if
 	(format[k] == '%')
 	{
-	putchar('%');
+	_putchar('%');
 	len++;
 	}
 	}
 	else
 	{
-	putchar(format[k]);
+	_putchar(format[k]);
 	len++;
 	}
 	}
