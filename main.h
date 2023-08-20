@@ -18,18 +18,18 @@
 #define S_LONG 2
 #define S_SHORT 1
 
+/**
+ * struct fmt - Struct op
+ * by Israel and Dayo
+ *
+ * @fmt: The format.
+ * @fn: The function associated.
+ */
 struct fmt
 {
 	char fmt;
 	int (*fn)(va_list, char[], int, int, int, int);
 };
-
-/**
- * struct fmt - Struct op
- *
- * @fmt: The format.
- * @fn: The function associated.
- */
 
 
 /**
@@ -85,15 +85,6 @@ int get_width(const char *format, int *i, va_list list);
 int get_precision(const char *format, int *i, va_list list);
 int get_size(const char *format, int *i);
 
-/****************** UTILS ******************/
-int is_printable(char);
-int append_hexa_code(char, char[], int);
-int is_digit(char);
-
-long int convert_size_number(long int num, int size);
-long int convert_size_unsgnd(unsigned long int num, int size);
-
-
 /*Function to print string in reverse*/
 int print_reverse(va_list types, char buffer[],
 	int flags, int width, int precision, int size);
@@ -115,5 +106,13 @@ int write_pointer(char buffer[], int ind, int length,
 int write_unsgnd(int is_negative, int ind,
 char buffer[],
 	int flags, int width, int precision, int size);
-#endif
 
+/****************** UTILS ******************/
+int is_printable(char);
+int append_hexa_code(char, char[], int);
+int is_digit(char);
+
+long int convert_size_number(long int num, int size);
+long int convert_size_unsgnd(unsigned long int num, int size);
+
+#endif
