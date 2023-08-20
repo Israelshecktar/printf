@@ -1,6 +1,5 @@
 #include "main.h"
-#include <stdio.h>
-#include <stdarg.h>
+
 /**
  * _printf - Function outputs according to a format
  * @format: diff data types and specifiers
