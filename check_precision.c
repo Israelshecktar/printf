@@ -2,8 +2,8 @@
 
 /**
  * get_precision - Function determines the precision for printing
- * by Israel and sheckar
  * @format: Formatted string in which to print the arguments
+ * by Israel and sheckar
  * @i: List of arguments to output
  * @list: set of arguments
  *

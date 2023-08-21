@@ -12,8 +12,8 @@ To use our Customized printf, follow these underlying steps:
 4. Run the application: ./printf
 
 - All prototype file are in the `main.h` file
-  Please note that this customized printf requires a C compiler, such as GCC, to be installed on your system.
-  Also note that all codes implented in this repository used the betty style and was checked using betty-style.pl and betty-doc.pl
+  - Please note that this customized printf requires a C compiler, such as GCC, to be installed on your system.
+  - Also note that all codes implented in this repository used the betty style and was checked using betty-style.pl and betty-doc.pl
 
 ## Usage
 
@@ -23,8 +23,8 @@ This function provides a similar interface to the standard printf function. You 
 
 CustomPrintf supports the following format specifiers:
 
-- %d for integers
 - %s for strings
+- %d for integers
 - %c for characters
 - %f for floating-point numbers
 - %r for reverser string
