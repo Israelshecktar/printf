@@ -59,14 +59,14 @@ int is_digit(char c)
  *
  * Return: Casted value of num
  */
-long int convert_size_number(long int num, int size)
+long int convert_size_number(long int nums, int size)
 {
 	if (size == S_LONG)
-		return (num);
+		return (nums);
 	else if (size == S_SHORT)
-		return ((short)num);
+		return ((short)nums);
 
-	return ((int)num);
+	return ((int)nums);
 }
 
 /**
@@ -76,12 +76,12 @@ long int convert_size_number(long int num, int size)
  *
  * Return: Casted value of num
  */
-long int convert_size_unsgnd(unsigned long int num, int size)
+long int convert_size_unsgnd(unsigned long int nums, int size)
 {
 	if (size == S_LONG)
-		return (num);
+		return (nums);
 	else if (size == S_SHORT)
-		return ((unsigned short)num);
+		return ((unsigned short)nums);
 
-	return ((unsigned int)num);
+	return ((unsigned int)nums);
 }
