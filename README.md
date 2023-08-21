@@ -30,17 +30,25 @@ CustomPrintf supports the following format specifiers:
 - %b for binary
 - %r for reverser string
 
+it also uses a local buffer of 1024 chars in order to call write as little as possible.
+
 You can also use additional formatting options, such as width and precision, (l, h) by following the format specifier with a number. For example, `%10s` will print a string with a minimum width of 10 characters.
 
 ## Project Structure
 
 The project follows a simple structure:
+├── **main.c**
+├── **main.h**
+├── **_printf.c**
+├── **print_functions2.c**
+├── print_functions1.c
+├── out_function.c
+├── get_size.c
+├── get_width.c
+├── get_flags.c
+├── **utils.c**
+└── **README.md**
 
-├── main.c
-├── main.h
-├── printf.c
-├──
-└── README.md
 
 ## Troubleshooting
 
@@ -50,4 +58,4 @@ If you encounter any issues while using our CustomPrintf, try the following trou
 2. Double-check that the source code was compiled successfully using the provided instructions.
 3. If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
 
-If the problem persists, please open an issue on our GitHub repository.
+If the problem persists, please open an issue on our GitHub repository. All thanks to Alx_africa.
