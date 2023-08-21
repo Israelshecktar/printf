@@ -53,9 +53,9 @@ The project follows a simple structure:
 
 If you encounter any issues while using our CustomPrintf, try the following troubleshooting steps:
 
-1. Make sure you have a C compiler, such as GCC, installed on your system.
-2. Double-check that the source code was compiled successfully using the provided instructions.
-3. If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
+- Make sure you have a C compiler, such as GCC, installed on your system.
+- Double-check that the source code was compiled successfully using the provided instructions.
+- If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
 
-If the problem persists, please open an issue on our GitHub repository.
-Special thanks to `julien barbier`. All thanks to Alx_africa.
+- If the problem persists, please open an issue on our GitHub repository.
+  Special thanks to `julien barbier`. All thanks to Alx_africa.
