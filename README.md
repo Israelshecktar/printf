@@ -24,9 +24,9 @@ This function provides a similar interface to the standard printf function. You 
 CustomPrintf supports the following format specifiers:
 
 - %d for integers
-- %f for floating-point numbers
+- %s for strings
 - %c for characters
-- %S for strings
+- %f for floating-point numbers
 - %r for reverser string
 - %b for binary
 
