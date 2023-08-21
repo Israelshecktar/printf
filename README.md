@@ -18,7 +18,25 @@ To use our Customized printf, follow these underlying steps:
 
 This function provides a similar interface to the standard printf function. You can use format specifiers outlisted below to control the output format.
 ## Examples
+`
+#include "main.h"
 
+int main(void)
+{
+    int num = 1024;
+    char *str = "Hi, IsraelDayo!";
+
+    _printf("Number: %d\n", num);
+    _printf("String: %s\n", str);
+
+    return (0);
+}
+`
+**Output:**
+`
+Number: 1024
+String: Hi, IsraelDayo!
+`
 ## Supported Format Specifiers
 
 CustomPrintf supports the following format specifiers:
