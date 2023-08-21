@@ -3,6 +3,7 @@
 This project is a Team project carried out EWEDAIRO ISRAEL and ADEDAYO AYOOLA as instructed by the founder, co-founder and Technical Mentor from the prestigious Tech school ALx_africa. This is a project that aims to create a custom implementation of the **\_printf** function in C. This function allows you to format and print text with diverse data types to the console in a flexible and customizable manner.
 
 ## Installation
+
 To use our Customized printf, follow these underlying steps:
 
 1. Clone the repository: git clone https://github.com/Israelshecktar/printf.git
@@ -26,8 +27,8 @@ CustomPrintf supports the following format specifiers:
 - %f for floating-point numbers
 - %c for characters
 - %S for strings
-- %b for binary
 - %r for reverser string
+- %b for binary
 
 it also uses a local buffer of 1024 chars in order to call write as little as possible.
 
@@ -38,7 +39,7 @@ You can also use additional formatting options, such as width and precision, (l,
 The project follows a simple structure:
 ├── **main.c**
 ├── **main.h**
-├── **_printf.c**
+├── **\_printf.c**
 ├── **print_functions2.c**
 ├── print_functions1.c
 ├── out_function.c
@@ -48,7 +49,6 @@ The project follows a simple structure:
 ├── **utils.c**
 └── **README.md**
 
-
 ## Troubleshooting
 
 If you encounter any issues while using our CustomPrintf, try the following troubleshooting steps:
@@ -57,5 +57,5 @@ If you encounter any issues while using our CustomPrintf, try the following trou
 2. Double-check that the source code was compiled successfully using the provided instructions.
 3. If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
 
-If the problem persists, please open an issue on our GitHub repository. 
+If the problem persists, please open an issue on our GitHub repository.
 Special thanks to `julien barbier`. All thanks to Alx_africa.
