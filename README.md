@@ -3,7 +3,6 @@
 This project is a Team project carried out EWEDAIRO ISRAEL and ADEDAYO AYOOLA as instructed by the founder, co-founder and Technical Mentor from the prestigious Tech school ALx_africa. This is a project that aims to create a custom implementation of the **\_printf** function in C. This function allows you to format and print text with diverse data types to the console in a flexible and customizable manner.
 
 ## Installation
-
 To use our Customized printf, follow these underlying steps:
 
 1. Clone the repository: git clone https://github.com/Israelshecktar/printf.git
@@ -18,6 +17,7 @@ To use our Customized printf, follow these underlying steps:
 ## Usage
 
 This function provides a similar interface to the standard printf function. You can use format specifiers outlisted below to control the output format.
+## Examples
 
 ## Supported Format Specifiers
 
