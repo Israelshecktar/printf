@@ -19,7 +19,7 @@ int print_char(va_list types, char buffer[],
 }
 
 /**
- * print_string - Function Prints a string
+ * print_strsing - Function Prints a string
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Checks active flags
@@ -32,21 +32,21 @@ int print_string(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
 	int length = 0, i;
-	char *str = va_arg(types, char *);
+	char *strs = va_arg(types, char *);
 
 	UNUSED(buffer);
 	UNUSED(flags);
 	UNUSED(width);
 	UNUSED(precision);
 	UNUSED(size);
-	if (str == NULL)
+	if (strs == NULL)
 	{
-		str = "(null)";
+		strs = "(null)";
 		if (precision >= 6)
-			str = "      ";
+			strs = "      ";
 	}
 
-	while (str[length] != '\0')
+	while (strs[length] != '\0')
 		length++;
 
 	if (precision >= 0 && precision < length)
@@ -56,7 +56,7 @@ int print_string(va_list types, char buffer[],
 	{
 		if (flags & F_MINUS)
 		{
-			write(1, &str[0], length);
+			write(1, &strs[0], length);
 			for (i = width - length; i > 0; i--)
 				write(1, " ", 1);
 			return (width);
@@ -65,12 +65,12 @@ int print_string(va_list types, char buffer[],
 		{
 			for (i = width - length; i > 0; i--)
 				write(1, " ", 1);
-			write(1, &str[0], length);
+			write(1, &strs[0], length);
 			return (width);
 		}
 	}
 
-	return (write(1, str, length));
+	return (write(1, strs, length));
 }
 /**
  * print_percent - Function prints a % sign
