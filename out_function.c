@@ -139,12 +139,12 @@ int print_int(va_list types, char buffer[],
 
 /**
  * print_binary - Function outputs an unsigned number
- * @types: set of arguments
  * @buffer: Buffer array to handle print
+ * @types: set of arguments
  * @flags:  Calculates active flags
- * @width: get width.
+ * @width: get the width.
  * @precision: Precision specification
- * @size: Size specifier
+ * @size: Size of specifier
  * Return: Numbers of char printed.
  */
 int print_binary(va_list types, char buffer[],

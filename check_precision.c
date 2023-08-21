@@ -2,12 +2,12 @@
 
 /**
  * get_precision - Function determines the precision for printing
- * by Israel and sheckar
  * @format: Formatted string in which to print the arguments
- * @i: List of arguments to output
+ * by Israel and sheckar
  * @list: set of arguments
- *
+ * @i: List of arguments to output
  * Return: Precision
+ *
  */
 int get_precision(const char *format, int *i, va_list list)
 {

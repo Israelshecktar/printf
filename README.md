@@ -1,6 +1,8 @@
 ## ALX printf
 
+...
 This project is a Team project carried out `EWEDAIRO ISRAEL` and `ADEDAYO AYOOLA` as instructed by the founder, co-founder and Technical Mentor from the prestigious Tech school ALx_africa. This is a project that aims to create a custom implementation of the **\_printf** function in C. This function allows you to format and print text with diverse data types to the console in a flexible and customizable manner.
+...
 
 ## Installation
 
@@ -12,8 +14,8 @@ To use our Customized printf, follow these underlying steps:
 4. Run the application: ./printf
 
 - All prototype file are in the `main.h` file
-  Please note that this customized printf requires a C compiler, such as GCC, to be installed on your system.
-  Also note that all codes implented in this repository used the betty style and was checked using betty-style.pl and betty-doc.pl
+  - Please note that this customized printf requires a C compiler, such as GCC, to be installed on your system.
+  - Also note that all codes implented in this repository used the betty style and was checked using betty-style.pl and betty-doc.pl
 
 ## Usage
 
@@ -23,8 +25,8 @@ This function provides a similar interface to the standard printf function. You 
 
 CustomPrintf supports the following format specifiers:
 
-- %d for integers
 - %s for strings
+- %d for integers
 - %c for characters
 - %f for floating-point numbers
 - %r for reverser string
@@ -53,9 +55,9 @@ The project follows a simple structure:
 
 If you encounter any issues while using our CustomPrintf, try the following troubleshooting steps:
 
-1. Make sure you have a C compiler, such as GCC, installed on your system.
-2. Double-check that the source code was compiled successfully using the provided instructions.
-3. If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
+- Make sure you have a C compiler, such as GCC, installed on your system.
+- Double-check that the source code was compiled successfully using the provided instructions.
+- If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
 
-If the problem persists, please open an issue on our GitHub repository.
-Special thanks to `julien barbier`. All thanks to Alx_africa.
+- If the problem persists, please open an issue on our GitHub repository.
+  Special thanks to `julien barbier`. All thanks to Alx_africa.

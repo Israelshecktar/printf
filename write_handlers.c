@@ -2,11 +2,11 @@
 
 /**
  * handle_write_char - Function prints a string
- * by Israel and Dayo
+ * by Israel and Adedayo
  * @c: char types
  * @buffer: Buffer array to handle print
- * @flags:  checks active flags
- * @width: get width.
+ * @flags:  checks the active flags
+ * @width: get the width.
  * @precision: precision specifier
  * @size: Size specifier
  *
