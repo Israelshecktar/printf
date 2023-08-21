@@ -58,4 +58,5 @@ If you encounter any issues while using our CustomPrintf, try the following trou
 2. Double-check that the source code was compiled successfully using the provided instructions.
 3. If the application fails to run, ensure that you have the necessary permissions to execute the compiled binary.
 
-If the problem persists, please open an issue on our GitHub repository. All thanks to Alx_africa.
+If the problem persists, please open an issue on our GitHub repository. 
+Special thanks to `julien barbier`. All thanks to Alx_africa.
