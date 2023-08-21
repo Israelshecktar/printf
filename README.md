@@ -17,14 +17,6 @@ To use our Customized printf, follow these underlying steps:
 ## Usage
 
 This function provides a similar interface to the standard printf function. You can use format specifiers outlisted below to control the output format.
-## Examples
-1. Include the "main.h" header file in your C program:
-   
-#include "main.h"
-2. Call the _printf function in your code, similar to the original printf function:
-  _printf("Hi, %s! The answer is %d.\n", "Israel", 1024);
-Output:
-   `Hi, Israel! The answer is 1024`
 
 ## Supported Format Specifiers
 
