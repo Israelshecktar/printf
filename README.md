@@ -1,6 +1,6 @@
 ## ALX printf
 
-This project is a Team project carried out EWEDAIRO ISRAEL and ADEDAYO AYOOLA as instructed by the founder, co-founder and Technical Mentor from the prestigious Tech school ALx_africa. This is a project that aims to create a custom implementation of the **\_printf** function in C. This function allows you to format and print text with diverse data types to the console in a flexible and customizable manner.
+This project is a Team project carried out `EWEDAIRO ISRAEL` and `ADEDAYO AYOOLA` as instructed by the founder, co-founder and Technical Mentor from the prestigious Tech school ALx_africa. This is a project that aims to create a custom implementation of the **\_printf** function in C. This function allows you to format and print text with diverse data types to the console in a flexible and customizable manner.
 
 ## Installation
 
@@ -24,9 +24,9 @@ This function provides a similar interface to the standard printf function. You 
 CustomPrintf supports the following format specifiers:
 
 - %d for integers
-- %f for floating-point numbers
+- %s for strings
 - %c for characters
-- %S for strings
+- %f for floating-point numbers
 - %r for reverser string
 - %b for binary
 
