@@ -5,8 +5,8 @@ void print_buffer(char buffer[], int *buff_ind);
 /**
  * _printf - function implements original printf
  * @format: format specifiers input
- * by Israel and Dayo
- * Return: Printed chars str and %
+ * by Dayo and Israel
+ * Return: Printed character str and %
  */
 int _printf(const char *format, ...)
 {
