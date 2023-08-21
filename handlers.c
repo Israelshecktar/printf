@@ -1,21 +1,20 @@
 #include "main.h"
 
 /**
- * handle_write_char - function prints a string
+ * handle_write_char - Function prints a string
  * by Israel and Dayo
- * @c: char types.
+ * @c: char types
  * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags.
+ * @flags:  checks active flags
  * @width: get width.
  * @precision: precision specifier
  * @size: Size specifier
  *
- * Return: Number of chars printed.
+ * Return: Number of chars printed
  */
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
 {
-/* char will be stored at left and paddind at buffer's right */
 	int i = 0;
 	char padd = ' ';
 
@@ -46,8 +45,8 @@ int handle_write_char(char c, char buffer[],
 }
 
 /**
- * write_number - function prints a string
- * @is_negative: Lists of arguments
+ * write_number - Prints a string
+ * @is_negative: Lista of arguments
  * @ind: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -82,11 +81,11 @@ int write_number(int is_negative, int ind, char buffer[],
  * write_num - Write a number using a bufffer
  * @ind: Index at which the number starts on the buffer
  * @buffer: Buffer
- * @flags: Flags
- * @width: width
+ * @flags: checks flag
+ * @width: get width
  * @prec: Precision specifier
  * @length: Number length
- * @padd: Pading char
+ * @padd: Pading character
  * @extra_c: Extra char
  *
  * Return: Number of printed chars.
@@ -157,8 +156,8 @@ int write_unsgnd(int is_negative, int ind,
 	int length = BUFF_SIZE - ind - 1, i = 0;
 	char padd = ' ';
 
-	UNUSED(size);
 	UNUSED(is_negative);
+	UNUSED(size);
 
 	if (precision == 0 && ind == BUFF_SIZE - 2 && buffer[ind] == '0')
 		return (0); /* printf(".0d", 0)  no char is printed */
