@@ -22,7 +22,7 @@ To use our Customized printf, follow these underlying steps:
 This function provides a similar interface to the standard printf function. You can use format specifiers outlisted below to control the output format.
 
 ## Examples
-```
+```c
 int main(void)
 {
     int num = 1024;
