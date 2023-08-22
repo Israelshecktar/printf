@@ -21,6 +21,28 @@ To use our Customized printf, follow these underlying steps:
 
 This function provides a similar interface to the standard printf function. You can use format specifiers outlisted below to control the output format.
 
+## Examples
+```
+<style>
+    .green-text {
+        color: green;
+    }
+</style>
+
+#include "main.h"
+
+int main(void)
+{
+    int num = 1024;
+    char *str = "Hi, IsraelDayo!";
+
+    <span class="green-text">_printf</span>("Number: %d\n", num);
+    <span class="green-text">_printf</span>("String: %s\n", str);
+
+    return (0);
+}
+
+```
 ## Supported Format Specifiers
 
 CustomPrintf supports the following format specifiers:
@@ -41,7 +63,7 @@ You can also use additional formatting options, such as width and precision, (l,
 The project follows a simple structure:
 ├── **main.c**
 ├── **main.h**
-├── **\_printf.c**
+├── **_printf.c**
 ├── **print_functions2.c**
 ├── print_functions1.c
 ├── out_function.c
