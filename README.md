@@ -23,6 +23,8 @@ This function provides a similar interface to the standard printf function. You 
 
 ## Examples
 ```c
+#include "main.h"
+
 int main(void)
 {
     int num = 1024;
