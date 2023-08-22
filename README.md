@@ -23,24 +23,20 @@ This function provides a similar interface to the standard printf function. You 
 
 ## Examples
 ```
-<style>
-    .green-text {
-        color: green;
-    }
-</style>
-
-#include "main.h"
-
 int main(void)
 {
     int num = 1024;
     char *str = "Hi, IsraelDayo!";
 
-    <span class="green-text">_printf</span>("Number: %d\n", num);
-    <span class="green-text">_printf</span>("String: %s\n", str);
+    _printf("Number: %d\n", num);
+    _printf("String: %s\n", str);
 
     return (0);
 }
+Output:
+
+Number: 1024
+String: Hi, IsraelDayo!
 
 ```
 ## Supported Format Specifiers
