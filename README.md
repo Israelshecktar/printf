@@ -26,8 +26,8 @@ This function provides a similar interface to the standard printf function. You 
 CustomPrintf supports the following format specifiers:
 
 - %s for strings
-- %d for integers
 - %c for characters
+- %d for integers
 - %f for floating-point numbers
 - %r for reverser string
 - %b for binary
