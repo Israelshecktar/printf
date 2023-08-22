@@ -61,3 +61,7 @@ If you encounter any issues while using our CustomPrintf, try the following trou
 
 - If the problem persists, please open an issue on our GitHub repository.
   Special thanks to `julien barbier`. All thanks to Alx_africa.
+
+## Authors
+
+This project was built by `EWEDAIRO ISRAEL A` and `ADEDAYO AYOOLA V`.
