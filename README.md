@@ -1,6 +1,7 @@
 ## ALX printf
 
 ...
+Thank  you shecktar!
 This project is a Team project carried out `EWEDAIRO ISRAEL` and `ADEDAYO AYOOLA` as instructed by the founder, co-founder and Technical Mentor from the prestigious Tech school ALx_africa. This is a project that aims to create a custom implementation of the **\_printf** function in C. This function allows you to format and print text with diverse data types to the console in a flexible and customizable manner.
 ...
 
